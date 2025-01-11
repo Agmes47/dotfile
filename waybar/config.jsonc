@@ -5,11 +5,11 @@
     "height": 21,
     "modules-left": [
         //"custom/arch",
-        "hyprland/workspaces"
+        "sway/workspaces"
         //"wlr/workspaces"
     ],
     "modules-center": [
-        "hyprland/window"
+        "sway/window"
     ],
     "modules-right": [
         "network",
@@ -76,7 +76,8 @@
         "format-disconnected": "⚠ Disconnected",
         "tooltip": false
     },
-    "hyprland/workspaces": {
+    // "hyprland/workspaces": {
+    "sway/workspaces": {
         "on-click": "activate"
     },
     "temperature": {
